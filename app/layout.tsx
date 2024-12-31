@@ -6,7 +6,7 @@ import { Header, Footer } from "@/components/layout";
 import "@/styles/globals.css";
 
 // TODO: move this to tailwind.
-export const font = Inter({
+const font = Inter({
   subsets: ["latin"],
   fallback: ["system-ui"],
 });
